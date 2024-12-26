@@ -1,0 +1,3 @@
+mvn test -PRegression (P- ProfileID written in POM)
+
+mvn test -PRegression -Dbrowser=firefox (using Arguments)

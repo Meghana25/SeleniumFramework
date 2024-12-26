@@ -1,0 +1,27 @@
+https://confluence.atlassian.com/bitbucketserver/basic-git-commands-776639767.html
+Git commands:
+To set user name and email
+git config --global user.name "Meghana"
+git config --global user.email "meghana.bhemanadhuni@gmail.com"
+
+git init // initializes empty GIT repository in that folder (creates .git file) - hidden file
+
+git add // adding code to staging
+staging commit
+
+git commit //commit commits the code which is present stash
+
+git remote add origin <repourl>
+
+git push origin master// GITHUB looks for commited code and allows to push
+
+to create new branch from git bash
+
+git checkout -b <newbranchname>
+
+git branch -> to know which branch you are pointed to
+
+to merge code of newbranchname on to master branch
+
+git checkout master -> get merge <newbranchname>
+
